@@ -6,7 +6,7 @@ This project presents an interactive Tableau dashboard analyzing Airbnb listing 
 
 ## 🖼 Dashboard Preview
 
-![Dashboard Preview](../dashboard_preview.png)
+![Dashboard Preview](dashboard-preview.png)
 
 Interactive dashboard exploring pricing, revenue, and listing distribution across regions.
 
