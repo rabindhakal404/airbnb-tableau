@@ -1,34 +1,35 @@
-# 🏡 Airbnb Data Analysis Dashboard (Tableau)
+# 🏡 Airbnb Market Analysis Dashboard (Tableau)
 
 ## 🔍 Overview
 
-This project presents an interactive Tableau dashboard analyzing Airbnb listing data to uncover pricing trends, revenue patterns, and key factors influencing listing performance.
+This project analyzes Airbnb listing data to uncover key trends in pricing, revenue, and property distribution. The dashboard provides insights into how factors such as location and property size influence listing performance.
 
 ## 🖼 Dashboard Preview
 
 ![Dashboard Preview](dashboard-preview.png)
 
-Interactive dashboard exploring pricing, revenue, and listing distribution across regions.
+Interactive dashboard analyzing pricing trends, revenue patterns, and listing distribution.
 
 ## 🎯 Business Problem
 
-The objective is to help stakeholders understand:
+The goal of this analysis is to help stakeholders understand:
 
-* How pricing varies across locations and property types
-* Which areas generate the highest revenue
-* What factors influence listing performance
+* What drives Airbnb pricing across different locations
+* How property size impacts listing price
+* Which areas generate higher revenue
+* Market distribution of property types
 
-These insights can support pricing strategies, investment decisions, and market analysis.
+These insights support better pricing strategies and investment decisions.
 
 ## 📂 Dataset
 
 The dataset includes Airbnb listings with features such as:
 
 * Price
-* Number of bedrooms
+* Number of Bedrooms
 * Zipcode / Location
-* Availability & yearly revenue
-* Listing attributes across multiple tables
+* Listing ID
+* Revenue over time
 
 ## 🛠 Tools Used
 
@@ -38,37 +39,37 @@ The dataset includes Airbnb listings with features such as:
 ## ⚙️ Data Preparation
 
 * Performed joins across multiple tables to create a unified dataset
-* Cleaned and structured data for analysis
-* Ensured consistency across pricing and location fields
+* Cleaned and standardized data fields
+* Structured data for efficient analysis and visualization
 
 ## 📊 Dashboard Features
 
 * **Average Price by Number of Bedrooms**
-* **Price Distribution by Zipcode**
-* **Revenue Trends Over Time (Yearly)**
+* **Price Distribution by Zipcode (Map + Bar Chart)**
+* **Revenue Trends Over Time**
 * **Count of Listings by Bedroom Type**
-* Interactive filters for location and property characteristics
+
 
 ## 📈 Key Insights
 
-* Listings with more bedrooms generally command higher prices, but with diminishing returns at higher levels
-* Certain zipcodes consistently show premium pricing, indicating high-demand areas
-* Revenue trends highlight seasonal or yearly growth patterns
-* Smaller properties dominate listing counts, suggesting higher supply in lower-bedroom categories
+* **Price increases with property size**, with larger properties (4–6 bedrooms) generating significantly higher average prices
+* **1-bedroom listings dominate the market**, indicating high supply in smaller property segments
+* **Pricing varies significantly by zipcode**, highlighting location as a key driver of value
+* **Revenue trends show steady growth**, indicating consistent demand over time
 
 ## 💼 Business Recommendations
 
-* Optimize pricing strategies based on bedroom count and location demand
-* Focus investments in high-performing zipcodes
-* Adjust pricing dynamically based on seasonal revenue trends
-* Target high-demand property types for better returns
+* Invest in properties located in high-price zipcodes to maximize returns
+* Leverage larger properties for premium pricing opportunities
+* Optimize pricing strategies based on bedroom count and location
+* Focus on high-demand areas to improve occupancy and revenue
 
 ## ▶️ How to Use
 
 1. Download the `.twbx` file from the `dashboard` folder
 2. Open using Tableau Desktop
-3. Use filters to explore pricing and revenue patterns
+3. Use filters and visuals to explore insights
 
 ## 🚀 Outcome
 
-Developed a dynamic Tableau dashboard that transforms raw Airbnb data into actionable insights for pricing optimization and market strategy.
+Developed an interactive Tableau dashboard that transforms raw Airbnb data into actionable insights, enabling data-driven decision-making for pricing optimization and market strategy.
